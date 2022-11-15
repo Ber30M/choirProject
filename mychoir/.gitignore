@@ -1,0 +1,17 @@
+qdmin
+.sqlite3
+*.pyc
+????_*.py
+*.sqlite3*
+*.png
+*.jpeg
+*.jpg
+*.pyd
+*.pyo
+*.csv
+
+**__pycache__
+
+/__pycache__
+/dist
+/static
