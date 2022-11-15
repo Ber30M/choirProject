@@ -13,6 +13,7 @@ class Choristes(models.Model):
 class Attendance(models.Model):
     id=models.AutoField(primary_key=True)
     date=models.DateField(auto_now=True)
+    is_present=models.BooleanField()
     choriste=models.ForeignKey(Choristes, on_delete=models.PROTECT)
     
     
