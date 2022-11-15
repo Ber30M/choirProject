@@ -15,3 +15,4 @@ qdmin
 /__pycache__
 /dist
 /static
+/env
