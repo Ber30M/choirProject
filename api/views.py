@@ -3,7 +3,7 @@ from .models import *
 from .serializers import *
 
 class ChoristesViewSet(viewsets.ModelViewSet):
-    queryset = Choristes.objects.all()
+    queryset = Choriste.objects.all()
     serializer_class = ChoristesSerializer
     
 class AttendanceViewSet(viewsets.ModelViewSet):
